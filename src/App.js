@@ -30,19 +30,19 @@ function App() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link" aria-current="page" onClick={()=>setBody("showHome") }>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" aria-current="page" onClick={()=>setBody("showHome") }>
                 Home
               </a>
-              <a className="nav-link" onClick={()=>setBody("showSoftSkills")}>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("showSoftSkills")}>
                 Soft Skills
               </a>
-              <a className="nav-link" onClick={()=>setBody("showCodingProjects")}>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("showCodingProjects")}>
                 Coding Projects
               </a>
-              <a className="nav-link" onClick={()=>setBody("showEducation")}>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("showEducation")}>
                 Education
               </a>
-              <a className="nav-link" onClick={()=>setBody("showWorkExperiance")}>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("showWorkExperiance")}>
                 Work Experiance
               </a>
             </div>
