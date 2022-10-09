@@ -45,9 +45,6 @@ class Home extends React.Component {
                 </ul>
               </li>
               <li className="list-group-item font-monospace">
-                <h5 className="font-Lobster">Loaction :</h5> Rajkot, Gujarat.
-              </li>
-              <li className="list-group-item font-monospace">
                 <h5 className="font-Lobster">Call :</h5> (+91) 96247 29396
               </li>
               <li className="list-group-item font-monospace">
