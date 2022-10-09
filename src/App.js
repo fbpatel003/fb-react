@@ -8,14 +8,14 @@ import WorkExperiance from "./Components/WorkExperiance";
 import NavBottom from "./Components/NavBottom";
 
 function App() {
-  const [showBody, setBody] = useState("showHome");
+  const [showBody, setBody] = useState("Home");
   return (
     <>
     
       <nav className="navbar navbar-custom navbar-expand-lg sticky-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
+          <a className="navbar-brand font-Lobster" href="#">
+            {showBody}
           </a>
           <button
             className="navbar-toggler"
@@ -30,19 +30,19 @@ function App() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" aria-current="page" onClick={()=>setBody("showHome") }>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" aria-current="page" onClick={()=>setBody("Home") }>
                 Home
               </a>
-              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("showSoftSkills")}>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("Soft Skills")}>
                 Soft Skills
               </a>
-              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("showCodingProjects")}>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("Coding Projects")}>
                 Coding Projects
               </a>
-              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("showEducation")}>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("Education")}>
                 Education
               </a>
-              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("showWorkExperiance")}>
+              <a className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onClick={()=>setBody("Work Experiance")}>
                 Work Experiance
               </a>
             </div>
@@ -50,11 +50,11 @@ function App() {
         </div>
       </nav>
 
-      {showBody=="showHome"? <Home/> : null}
-      {showBody=="showSoftSkills"? <SoftSkills/> : null}
-      {showBody=="showCodingProjects"? <CodingProjects/> : null}
-      {showBody=="showEducation"? <Education/> : null}
-      {showBody=="showWorkExperiance"? <WorkExperiance/> : null}
+      {showBody=="Home"? <Home/> : null}
+      {showBody=="Soft Skills"? <SoftSkills/> : null}
+      {showBody=="Coding Projects"? <CodingProjects/> : null}
+      {showBody=="Education"? <Education/> : null}
+      {showBody=="Work Experiance"? <WorkExperiance/> : null}
     
       <NavBottom/>
     </>
