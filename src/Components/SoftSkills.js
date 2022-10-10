@@ -232,7 +232,7 @@ class SoftSkills extends React.Component {
             </div>
           </div>
 
-          <div className="row m-top-10">
+          <div className="row m-top-10 row-3-skills">
             <div className="col">
               <div className="progress react">
                 <span className="progress-left">
