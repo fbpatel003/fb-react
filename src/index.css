@@ -160,6 +160,12 @@
     margin-top: -50px;
 }
 
+.progress-logo-html{
+    margin: auto;
+    margin-top: -40px;
+    margin-left: 15px;
+}
+
 .progress.java .progress-bar{
     border-color: rgb(255, 203, 32) ;
 }
@@ -225,6 +231,83 @@
     }
 }
 
+
+.progress.html .progress-bar{
+    border-color: rgb(245, 168, 3) ;
+}
+.progress.html .progress-left .progress-bar{
+    animation: loading-4 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(72deg);
+        transform: rotate(72deg);
+    }
+}
+
+
+.progress.css .progress-bar{
+    border-color: rgb(3, 39, 245) ;
+}
+.progress.css .progress-left .progress-bar{
+    animation: loading-5 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(54deg);
+        transform: rotate(54deg);
+    }
+}
+
+
+.progress.react .progress-bar{
+    border-color: rgb(3, 209, 245) ;
+}
+.progress.react .progress-left .progress-bar{
+    animation: loading-6 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-6{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+
+
+.progress.bootstrap .progress-bar{
+    border-color: rgb(148, 3, 245) ;
+}
+.progress.bootstrap .progress-left .progress-bar{
+    animation: loading-7 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-7{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(54deg);
+        transform: rotate(54deg);
+    }
+}
+
+
 @media only screen and (max-width: 990px){
     .progress{ margin-bottom: 20px; }
 }
@@ -242,3 +325,29 @@
 .m-top-10{
     margin-top: 10px;
 }
+
+.custom-back{
+    margin-top: -10px;
+    padding: 5%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(157, 244, 255), rgb(246, 152, 255));
+}
+
+.codingProjectContain{
+    max-width: 850px;
+    margin: auto;
+    padding: 15px;
+}
+
+.badge{
+    font-size: xx-small;
+}
+.bg-react{background-color: aqua; color: black;}
+.bg-html{background-color: orange;}
+.bg-css{background-color: blue;}
+.bg-java{background-color: rgb(106, 175, 255);}
+.bg-sql{background-color: rgb(0, 153, 255);}
+.bg-netbeans{background-color: green;}
+.bg-js{background-color: yellow; color: black;}
+.bg-bootstrap{background-color: purple;}
+.bg-swing{background-color: brown;}
