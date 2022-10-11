@@ -1,5 +1,5 @@
 .navbar-custom {
-  background-color: rgb(122, 135, 253);
+  background-color: rgb(211, 0, 98);
 }
 
 .navbar-custom .navbar-brand,
@@ -8,6 +8,10 @@
 .navbar-toggler-icon,
 .nav-link {
   color: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+  min-width: 130px;
 }
 
 #GIT {
@@ -50,11 +54,13 @@
 }
 
 .card-img-top {
+  border: 2px solid rgb(211, 0, 98);
   border-radius: 50%;
   width: 250px;
   height: 250px;
   margin: auto;
   margin-top: 10px;
+  padding: 5px;
 }
 
 .card-title {
@@ -368,3 +374,11 @@
 .bg-swing {
   background-color: brown;
 }
+
+.EduContain, .WorkContain{
+  margin: auto;
+  padding: 15px;
+  max-width: 550px;
+}
+
+
