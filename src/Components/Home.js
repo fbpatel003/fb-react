@@ -17,7 +17,7 @@ class Home extends React.Component {
                 and Project Management.
               </p>
               <p className="card-text">
-                <small className="text-muted">Last updated on 10/10/'22</small>
+                <small className="text-muted">Last updated on 11/10/'22</small>
               </p>
             </div>
             <ul className="list-group list-group-flush">
